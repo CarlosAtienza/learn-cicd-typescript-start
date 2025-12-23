@@ -21,7 +21,5 @@ describe("getApiKey", () => {
         expect(result).toBe("abc123XYZ");
     });
 
-    test("breaking code temp", () => {
-        expect(1).toBe(3);
-    })
+
 });
