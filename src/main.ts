@@ -14,6 +14,9 @@ if (!config.api.port) {
   console.error("PORT environment variable is not set");
   process.exit(1);
 }
+ function useless () {
+
+}
 
 const app = express();
 app.use(express.json());
